@@ -1,0 +1,19 @@
+name: italianai
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.11.10
+  - pip
+  - diffusers=0.33.1
+  - tqdm=4.67.1
+  - transformers=4.51.3
+  - ipython=8.31.0
+  - jupyter=1.1.1
+
+  - pip:
+    - accelerate==1.6.0
+    - hf-xet==1.0.3
+    - torch==2.6.0
+    
