@@ -24,7 +24,7 @@ then go to https://hub.docker.com/r/nvidia/cuda/tags to choose the appropriate i
 The jupyter notebook server is at port 8888.
 A local folder, specified in `docker-compose.yml`, is mounted to `/usr/src/app/doc` in the docker for access to files.
 ```
-git clone https://github.com/aa-crypto-ai/stable-diffusion.git
-cd stable-diffusion
+git clone https://github.com/aa-crypto-ai/umdctf-stable-diffusion.git
+cd umdctf-stable-diffusion
 docker-compose up --build
 ```
